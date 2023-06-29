@@ -3,5 +3,5 @@ from .import views
 
 urlpatterns = [
     path('registerUser/',views.registerUser,name='registerUser'),
-    #path('register/',views.user()),
+    path('registerVendor/',views.registerVendor,name='registerVendor'),
 ]
